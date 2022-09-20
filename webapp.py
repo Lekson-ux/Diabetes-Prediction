@@ -6,7 +6,8 @@ import pickle
 import streamlit
 import numpy as np
 import pandas as pd
-loaded_model = pickle.load(open('C:/Users/USER/Documents/Streamlit ML APPS/Diabetes Project/Saved_model.pkl', 'rb'))
+#loaded_model = pickle.load(open('C:/Users/USER/Documents/Streamlit ML APPS/Diabetes Project/Saved_model.pkl', 'rb'))
+loaded_model = pickle.load(open('Saved_model.pkl', 'rb'))
 
 #creating a function for prediction
 def diabetes_prediction(input_data):
