@@ -6,7 +6,8 @@ import pickle
 #import streamlit
 import numpy as np
 import pandas as pd
-loaded_model = pickle.load(open('C:/Users/USER/Documents/Streamlit ML APPS/Diabetes Project/Saved_model.pkl', 'rb'))
+#loaded_model = pickle.load(open('C:/Users/USER/Documents/Streamlit ML APPS/Diabetes Project/Saved_model.pkl', 'rb'))
+loaded_model = pickle.load(open('Saved_model.pkl', 'rb'))
 input_data = (5,166,72,19,175,25.8,0.587,51)
 
 # changing the input_data to numpy array
