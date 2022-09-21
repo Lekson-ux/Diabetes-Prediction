@@ -10,7 +10,7 @@ loaded_model = pickle.load(open('Saved_model.pkl', 'rb'))
 #creating a function for prediction
 def diabetes_prediction(input_data):
     # changing the input_data to numpy array
-    input_data_as_numpy_array = np.array(input_data)
+    input_data_as_numpy_array = np.array(input_data, dtype='float')
     #input_data_as_numpy_array = to_numeric(input_data)
     
     # reshape the array as we are predicting for one instance
